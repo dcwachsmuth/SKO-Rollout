@@ -19,7 +19,7 @@ flags = Flags()
 Rox.register("default", flags)
 
 # Setup the Rollout environment key
-cancel_event = Rox.setup("<rollout_env_key>").result();
+cancel_event = Rox.setup("5e4d88c35abdaa875b1b5b72").result();
 
 # Boolean flag example
 print('enableTutorial is %s' % flags.enableTutorial.is_enabled())
